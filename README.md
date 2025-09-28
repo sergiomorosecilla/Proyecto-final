@@ -40,9 +40,7 @@ Para ello se ha realizado un **Análisis Exploratorio de Datos (EDA)** y un **Da
     - charts (Jupiter Notebook, analisis drescriptivo y estadístico)
  
 - Dashboard_BTC
-- Readme
-
-👉 Conclusión: **BTC se comporta más como un activo de riesgo (correlación con S&P) que como un refugio (Oro)**.  
+- Readme 
 
 ---
 
@@ -68,16 +66,24 @@ El dashboard interactivo en Excel incluye:
 ---
 
 ## 📌 Conclusiones
-- BTC no se comporta como “oro digital” en el corto/medio plazo.  
-- Su perfil de riesgo y correlación lo acerca más a la renta variable (activo de riesgo).  
-- El Oro mantiene mejor sus características de refugio.  
 
----
+# Informe explicativo — ¿BTC es “oro digital” o un activo de riesgo?
 
-## 🚀 Próximos pasos
-- Añadir rolling correlations (90–180 días).  
-- Analizar downside beta (beta en días negativos de S&P).  
-- Probar estrategias de cartera mixta (incluir BTC al 5–10%).  
+1) Resumen Ejecutivo
+Con los datos históricos integrados (BTC, S&P 500 y Oro) y el dashboard construido, el análisis muestra que **Bitcoin se comporta mayoritariamente como un activo de riesgo**, no como un refugio.
+A pesar de ello la adopción masiva de los últimos años ha provocado una tendencia extraordinariamente alcista, mucho más que los otros dos activos estudiados y la volatilidad muestra una tendencia muy pronunciada a la baja, llegando a igualarse (y a ser inferior incluso), por primera a la del S&P este 2025. 
+De seguir así con esa tendencia, no es para nada imposible un escenario a medio plazo, en que BTC llegue a asemejarse más al Oro. La escasez de BTC (máx. 21 millones una vez minado todo el BTC) puede hacer que la adopción sea exponencialmente masiva y que se pueda llegar a convertir en el activo de reserva de valor del s. XXI, quien sabe si desbancando al propio Oro.
+
+2) Datos y fuentes
+Activos: BTC, S&P 500, Oro (2010–2025).  
+	-https://www.kaggle.com/
+	-https://es.investing.com/
+Archivos: merge.csv, notebooks (merge&clean, charts), dashboard Excel.
+
+3) Metodología
+•	- Limpieza de datos.  
+•	- Retornos diarios, volatilidad, precios base 100.  
+•	- Correlaciones y scatter BTC vs S&P / BTC vs Oro. 
 
 ---
 
